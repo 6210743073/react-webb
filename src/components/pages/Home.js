@@ -1,11 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
 import Cards from '../Cards.js';
+import ImageSlider from '../HeroSection';
+import { SliderData } from '../SliderData';
 function Home() {
   return (
     <>
-      <HeroSection />
+      <ImageSlider slides={SliderData} />;
+      <h1>ข้อมูลตู้น้ำ</h1>
       <Cards />
     </>
   );

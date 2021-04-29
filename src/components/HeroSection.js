@@ -1,26 +1,39 @@
-import React from 'react';
-import '../App.css';
-import { Button } from './Button';
-import './HeroSection.css';
+import React,{useState} from 'react'
+import { SliderData } from './SliderData';
+import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from 'react-icons/fa'
 
+const HeroSection = ({slides}) => {
+  const [current,setCurrent] = useState(0)
+  const length = slides.length
 
-function HeroSection() {
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  };
+
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  };
+
+  
   return (
-    <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>“ส่งปัญหาตู้น้ำมาได้ที่นี่”</h1>
-      <p> ↓↓↓ </p>
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          ส่งปัญหา
-        </Button>
-      </div>
-    </div>
+    <section className='slider'>
+      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
+      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+      {SliderData.map((slide, index) => {
+        return (
+          <div
+            className={index === current ? 'slide active' : 'slide'}
+            key={index}
+          >
+            {index === current && (
+              <img src={slide.image} alt='travel' className='image' />
+            )}
+          </div>
+        );
+      })}
+    </section>
   );
-}
+  
+};
 
 export default HeroSection;

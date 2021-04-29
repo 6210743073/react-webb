@@ -16,32 +16,6 @@ function Cards() {
               path='/sign-up'
             />
           </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='src/assets/img-9.jpg'
-              text='ข้อมูลตู้น้ำ'
-              label='ชั้น 1'
-              path='/sign-up'
-            />
-            <CardItem
-              src='src/assets/img-9.jpg'
-              text='ข้อมูลตู้น้ำ'
-              label='ชั้น 1'
-              path='/sign-up'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='ข้อมูลตู้น้ำ'
-              label='ชั้น 1'
-              path='/sign-up'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='ข้อมูลตู้น้ำ'
-              label='ชั้น 1'
-              path='/sign-up'
-            />
-          </ul>
         </div>
       </div>
       <h1>--- ชั้น 2 ---</h1>

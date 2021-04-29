@@ -1,6 +1,13 @@
 import React from 'react';
-import '../../App.css';
+import Contact from '../Contact';
+
+
+
 
 export default function SignUp() {
-  return <h1 className='sign-up'>กำลังปรับปรุง</h1>;
+  return <div className = "SignUp">
+    <Contact />
+    </div>;
+    
+ 
 }

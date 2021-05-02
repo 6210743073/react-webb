@@ -41,15 +41,7 @@ function Navbar() {
                 หน้าหลัก
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                เกี่ยวกับ
-              </Link>
-            </li>
+            
             <li>
               <Link
                 to='/sign-up'

@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { SliderData } from './SliderData';
-import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from 'react-icons/fa'
+import {BsCaretRightFill,BsCaretLeftFill} from "react-icons/bs"
+import '../../src/App.css'
 
 const HeroSection = ({slides}) => {
   const [current,setCurrent] = useState(0)
@@ -17,8 +18,8 @@ const HeroSection = ({slides}) => {
   
   return (
     <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+      <BsCaretLeftFill className='left-arrow' onClick={prevSlide} />
+      <BsCaretRightFill className='right-arrow' onClick={nextSlide} />
       {SliderData.map((slide, index) => {
         return (
           <div

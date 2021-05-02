@@ -6,8 +6,9 @@ import { SliderData } from '../SliderData';
 function Home() {
   return (
     <>
-      <ImageSlider slides={SliderData} />;
-      <h1>ข้อมูลตู้น้ำ</h1>
+      <h2>รูปแผนที่ตู้น้ำในคณะ</h2>
+      <ImageSlider slides={SliderData} />
+      <h3>ข้อมูลตู้น้ำ</h3>
       <Cards />
     </>
   );

@@ -38,7 +38,7 @@ function Cards() {
             />
              <CardItem
               src='/images/img-33.jpg'
-              text='ข้ตู้กดน้ำข้างขวาห้อง 326'
+              text='ตู้กดน้ำข้างขวาห้อง 326'
               label='สถาณะ : พร้อมใช้งาน '
               path='/sign-up'
             />
@@ -72,7 +72,7 @@ function Cards() {
             />
              <CardItem
               src='images/img-52.jpg'
-              text='ข้ตู้กดน้ำหน้าห้อง505/2'
+              text='ตู้กดน้ำหน้าห้อง505/2'
               label='สถาณะ : พร้อมใช้งาน '
               path='/sign-up'
             />
@@ -92,13 +92,13 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-61.jpg'
-              text='ตู้กดน้ำหน้าห้อง 602'
+              text='ตู้กดน้ำหน้าห้อง502'
               label='สถาณะ : พร้อมใช้งาน '
               path='/sign-up'
             />
              <CardItem
               src='images/img-62.jpg'
-              text='ตู้กดน้ำหน้าห้อง 605'
+              text='ตู้กดน้ำหน้าห้อง502'
               label='สถาณะ : พร้อมใช้งาน '
               path='/sign-up'
             />
@@ -116,7 +116,7 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
+            <FixItem
               src='images/img-7.jpg'
               text='ตู้กดน้ำหน้าห้องวศ.709 หน่วยโสดทัศนูปกรณ์'
               label='สถาณะ : พร้อมใช้งาน '

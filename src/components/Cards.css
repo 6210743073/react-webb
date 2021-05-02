@@ -1,6 +1,6 @@
 .cards {
-    padding: 4rem;
-    background: #fff;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
   }
   
   h1 {
@@ -49,11 +49,12 @@
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
+    
   }
   
   .fade-img {
     animation-name: fade-img;
-    animation-duration: 2s;
+    animation-duration: 1s;
   }
   
   .cards__item__pic-wrap::after {
@@ -90,7 +91,7 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 20px 20px;
   }
   
   .cards__item__text {

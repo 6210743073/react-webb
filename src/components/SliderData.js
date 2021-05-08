@@ -1,30 +1,30 @@
 export const SliderData = [
   {
-        image:'./map/first floor.jpg'
+        image:'./map/3.png'
   },
 
   {
-        image:'./map/second floor.jpg'
+        image:'./map/3.png'
   },
 
   {
-        image:'./map/third floor.jpg'
+        image:'./map/3.png'
   },
 
   {
-        image:'./map/fourth floor.jpg'
+        image:'./map/3.png'
   },
 
   {
-        image:'./map/fifth floor.jpg'
+        image:'./map/3.png'
   },
 
   {
-        image:'./map/sixth floor.jpg'
+        image:'./map/3.png'
   },
 
   {
-        image:'./map/seventh floor.jpg'
+        image:'./map/3.png'
   },
 
 

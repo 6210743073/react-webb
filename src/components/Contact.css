@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 400px) {
   .SignUp,.form{
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -19,11 +19,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .SignUp,.form {
-    margin-bottom: 2rem;
-  }
-}
+
 
 h1,
 body,
@@ -41,6 +37,7 @@ button {
 
 
 .form {
+  padding-top: 50px;
   height: 100vh;
   display: flex;
   flex-direction: column;

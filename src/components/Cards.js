@@ -119,7 +119,7 @@ function Cards() {
             <FixItem
               src='images/img-7.jpg'
               text='ตู้กดน้ำหน้าห้องวศ.709 หน่วยโสดทัศนูปกรณ์'
-              label='สถาณะ : พร้อมใช้งาน '
+              label='สถาณะ : ไม่พร้อมใช้งาน '
               path='/sign-up'
             />
           </ul>
